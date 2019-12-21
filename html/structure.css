@@ -1,0 +1,184 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    background-color: #0a0a0a76;
+  }
+  
+  body {
+    width: 65%;
+    margin: 0 auto;
+  }
+  
+  
+  h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2a2a2a;
+  }
+
+
+  
+  p, input, li {
+    font-family: sans-serif;;
+    color: #2a2a2a;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    padding-left: 10px;
+    margin-left: 5px;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 2.2rem;
+  }
+  
+  p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+
+  
+  nav, article, aside, footer {
+    background-color: white;
+    padding: 1%;
+    
+  }
+  
+  nav {
+    height: 37px;
+   
+    background-color: #092f72d4;
+
+    
+    display: flex;
+    margin-bottom: 10px;
+    border: solid;
+    
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+    
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+   
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 75%;
+    padding: 0 2em;
+    
+  }
+  
+  input {
+    font-size: 1.6rem;
+    height: 22px;
+  }
+  
+  input[type="search"] {
+    flex: 3;
+  }
+  
+  input[type="submit"] {
+    flex: 1;
+    margin-left: 1rem;
+    background: #333;
+    border: 0;
+    color: white;
+  }
+  
+  
+  main {
+    display: flex;
+  }
+  
+  article {
+    flex: 4;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 5px;
+    background-color: #092f72d4;
+    
+    
+    
+  }
+
+  .aside{
+    color: white;
+  }
+  
+  aside li {
+    padding-bottom: 8px;
+  }
+
+ header {
+    margin-top: 7px;
+    height: 120px;
+    line-height: 120px;
+    
+ 
+  }
+  .header{
+    color: white;
+  }
+  
+  footer {
+    margin-top: 7px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 1.6rem;
+   
+   
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+
+  img{
+   
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  height: 100px;
+  width: 120px;
+
+  }
