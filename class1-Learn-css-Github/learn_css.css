@@ -1,0 +1,56 @@
+/* h1{
+    color: red;
+  }
+
+h2{
+color: rgb(30, 0, 255);
+}  */
+
+h1,
+h2 {
+  color: rgb(16, 100, 41);
+  width: 500px;
+  height: 75px;
+  border: 1px solid black;
+  background-color: rgb(0, 238, 255);
+}
+
+#big {
+  font-size: 4em;
+}
+
+.red {
+  color: rgb(11, 11, 11);
+  width: 500px;
+  height: 75px;
+  border: 1px solid black;
+  background-color: rgba(255, 0, 60, 0.776);
+}
+
+img[src] {
+  height: 200px;
+  border: 2px solid #1c6ea4;
+}
+
+#apples {
+  font-size: 4em;
+  text-align: left;
+  height: 75px;
+  background-color: white;
+  margin: 25px;
+}
+
+.myButton {
+  color: rgb(194, 49, 49);
+  font-size: 20px;
+  line-height: 16px;
+  padding: 8px;
+  background-color: rgba(0, 0, 255, 0.215);
+  border: 1px solid rgb(7, 34, 52);
+  display: inline-block;
+} 
+
+.myButton:hover {
+  background: #1c6ea4;
+}
+
