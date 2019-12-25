@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <title>CSS Class 2 - Text & Fonts</title>
+</head>
+
+<body>
+    <h1>CSS Class 2 - Text & Fonts</h1>
+    <h3>~Learning Cool Stuff~</h3>
+    <img src="words.jpg" alt="Italian Trulli">
+    <p>We will learn how to make our text look good through this class</p>
+    <hr>
+
+    <h2>Line Height</h2>
+    <h4>Line Height 1 -Normal</h4>
+    <p class="lineHeight1">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <h4>Line Height 2 -"2.5"</h4>
+    <p class="lineHeight2">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <h4>Line Height 3 -"4em"</h4>
+    <p class="lineHeight3">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <hr>
+
+    <h2 id="hyph-words"> Handling Hyphenated Words</h2>
+    <p>Now Assume we have hyphenated words. the "hyphens" property enables
+    us to control how
+    Words should be hyphenated so if we had a word like<br>
+    <span class="hyphen"> blueberrybush blueberrybush blueberrybush</span>     
+    </p>
+    <hr>
+
+    <!-- OVERFLOW for inline elements ONLY -->
+    <h2>Normal Overlow</h2>
+    <span id="overflow1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores,
+        repudiandae error nullanullanullanullanullanullanulla commodiquaeratcommodiquaerat
+        enim debitis accusamus, ipsum consequatur natus veritatis
+        eveniet libero inventore? Sequi eos inventore sed dicta tempore!</span>
+
+    <h2>Break-word Overlow</h2>
+    <span id="overflow2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores,
+        repudiandae error nullanullanullanullanullanullanulla commodiquaeratcommodiquaerat
+        enim debitis accusamus, ipsum consequatur natus veritatis
+        eveniet libero inventore? Sequi eos inventore sed dicta tempore!</span>
+    <hr>
+
+    <h2>Text Align</h2>
+    <!-- sets the horizontal alignment of a block element or table-cell box.-->
+    <h4>Aligned Left</h4>
+    <!-- The inline contents are aligned to the left edge of the line box. -->
+    <p class="text-aligned-left">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <h4>Aligned Center</h4>
+    <!-- The inline contents are centered within the line box. -->
+    <p class="text-aligned-center">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <h4>Aligned Justified</h4>
+    <!--The inline contents are justified. Text should be spaced to 
+    line up its left and right edges to the left and right edges 
+    of the line box, except for the last line. -->
+    <p class="text-aligned-justified">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+
+
+    <h2>Vertical Alignment</h2>
+    <!-- sets vertical alignment of an inline, inline-block 
+        or table-cell box. -->
+    <div>
+        <h4>An <img src="kids.jpg" alt="link" width="270" 
+            height="32" /> image with a default alignment.</h4>
+    </div>
+    <div>
+        <h4>An <img class="top" src="kids.jpg" alt="link" width="270" 
+            height="32" /> image with a text-top alignment.
+        </h4>
+    </div>
+    <div>
+        <h4>An <img class="bottom" src="kids.jpg" alt="link" width="270" 
+            height="32" /> image with a text-bottom
+            alignment.</h4>
+    </div>
+    <div>
+        <h4>An <img class="middle" src="kids.jpg" alt="link" width="270" 
+            height="32" /> image with a middle alignment.
+        </h4>
+    </div>
+
+    <hr>
+    <h2>Text Indent</h2>
+
+    <p class="text-indent">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <hr>
+
+    <h2>Text Transform</h2>
+    <!-- specifies how to capitalize an element's text.
+     It can be used to make text appear in all-uppercase or all-lowercase, 
+     or with each word capitalized -->
+    <h4>Capitalize</h4>
+    <!-- Is a keyword that converts the first letter of each word to uppercase -->
+    <p class="text-transform-cap">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <h4>UPPERCASE</h4>
+    <!-- Is a keyword that converts all characters to uppercase. -->
+    <p class="text-transform-upper">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <h4>lowercase</h4>
+    <!-- Is a keyword that converts all characters to lowercase. -->
+    <p class="text-transform-lower">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+
+    <hr>
+
+    <h2>White Space</h2>
+    <!-- sets how white space inside an element is handled -->
+    <h4>Normal</h4>
+    <!-- Sequences of white space are collapsed. Newline characters 
+        in the source are handled the same as other white space.
+         Lines are broken as necessary to fill line boxes. -->
+    <p class="white-space-norm">
+        Integer elementum massa at nulla
+        placerat varius.
+        Suspendisse in libero risus,
+        in interdum massa.
+        Vestibulum ac leo vitae metus
+        faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed
+        dictum quis, accumsan a ligula.
+    </p>
+    <h4>No-wrap</h4>
+    <!-- Collapses white space as for normal, but suppresses 
+        line breaks (text wrapping) within the source. -->
+    <p class="white-space-nw">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <h4>Pre</h4>
+    <!-- Sequences of white space are preserved. 
+        Lines are only broken at newline characters in the source and at 
+        <br> elements. -->
+    <p class="white-space-pre">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <h4>Pre-wrap</h4>
+    <!-- Sequences of white space are preserved. Lines are 
+        broken at newline characters, at <br>, and as necessary 
+        to fill line boxes. -->
+    <p class="white-space-pw">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae<br> metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <h4>Pre-line</h4>
+    <!-- Sequences of white space are collapsed. Lines are broken 
+        at newline characters, at <br>, and as necessary to fill line boxes. -->
+    <p class="white-space-pl">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus, <br>in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, <br>suscipit sed dictum quis,<br> accumsan a ligula.
+    </p>
+    <h4>Break Spaces</h4>
+    <!-- The behavior is identical to that of pre-wrap, except that:
+    Any sequence of preserved white space always takes up space, including at the 
+    end of the line.
+    A line breaking opportunity exists after every preserved white space character, 
+    including between white space characters.Such preserved spaces take up space 
+    and do not hang, and thus affect the box’s
+    intrinsic sizes (min-content size and max-content size). -->
+    <p class="white-space-bs">
+        Integer elementum
+        massa at nulla
+        placerat varius.
+        Suspendisse in
+        libero risus, in
+        interdum massa.
+        Vestibulum ac
+        leo vitae metus
+        faucibus gravida ac in neque.
+        Nullam est eros,
+        suscipit
+        sed dictum quis,
+        accumsan a ligula.
+    </p>
+
+    <hr>
+
+    <h2>Word Break</h2>
+    <h4>Normal</h4>
+    <!-- Uses the default line break rule. -->
+    <p class="work-break-norm">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus,in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis,accumsan a ligula.
+    </p>
+    <h4>Break All</h4>
+    <!-- To prevent overflow, word breaks should be inserted between 
+        any two characters (excluding Chinese/Japanese/Korean text).-->
+    <p class="work-break-ba">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus,in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis,accumsan a ligula.
+    </p>
+    <h4>Keep All</h4>
+    <!-- Word breaks should not be used for Chinese/Japanese/Korean (CJK) text.
+         Non-CJK text behavior is the same as for normal.-->
+    <p class="work-break-ka">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus,in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis,accumsan a ligula.
+    </p>
+    <h4>Break Word</h4>
+    <!-- Has the same effect as word-break: normal and overflow-wrap: anywhere,
+         regardless of the actual value of the overflow-wrap property.-->
+    <p class="work-break-bw">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus,in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis,accumsan a ligula.
+    </p>
+
+
+    <hr>
+
+    <h2>Word Spacing</h2>
+
+    <h4>Normal</h4>
+    <!-- The normal inter-word spacing, as defined by the current font and/or
+        the browser. -->
+
+    <p class="word-spacing-norm">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus,in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis,accumsan a ligula.
+    </p>
+
+    <h4>Length</h4>
+    <!-- Specifies extra spacing in addition to the intrinsic inter-word 
+        sspacing defined by the font. -->
+
+    <p class="word-spacing-len">
+        Integer elementum massa at nulla placerat varius.
+        Suspendisse in libero risus,in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis,accumsan a ligula.
+    </p>
+    <br>
+    <hr>
+    <h2>Text Orientation</h2>
+    <!-- sets whether lines of text are laid out horizontally or vertically, 
+    as well as the direction in which blocks progress -->
+    <h4 class="vert-lr">Vertical Top to Bottom (Left to Right)</h4>
+    <!-- Content flows vertically from top to bottom, horizontally from left 
+        to right. The next vertical line is positioned to the 
+        right of the previous line. -->
+    <br>
+    <h4 class="vert-rl">Vertical Top to Bottom (Right to Left)</h4>
+    <!-- Content flows vertically from top to bottom, horizontally from right
+         to left. The next vertical line is positioned to the left of the 
+         previous line. -->
+
+    <hr>
+    <h2>Text Shadow</h2>
+
+    <h4>Variation #1</h4>
+    <h4 class="ts-1">Text Shadowing-1</h4>
+
+    <h4>Variation #2</h4>
+    <h4 class="ts-2">Text Shadowing-2</h4>
+
+    <h4>Variation #3</h4>
+    <h4 class="ts-3">Text Shadowing-3</h4>
+
+    <h4>Variation #4</h4>
+    <h4 class="ts-4">Text Shadowing-4</h4>
+    <hr>
+    <h4>Effect First Letter Only</h4>
+    <p class="fl">Just the First Letter please</p>
+    <p class="fl">Only the First Letter please</p>
+    <p class="fl">Nothing but the First Letter please</p>
+
+    <hr>
+    <h2>The Wonderful Word of Fonts</h2>
+    <h4>What's the difference between text and font?</h4>
+    <h5>Text is the content and font is used to display that content.</h5>
+
+    <h2>Font Families- The 5 Generic Types</h2>
+
+    <h4>Serif</h4>
+    <h5 class="serif-font">This is what serif looks like</h5>
+
+    <h4>Sans-Serif</h4>
+    <h5 class="sans-serif-font">This is what sans serif looks like</h5>
+
+    <h4>Monospace</h4>
+    <h5 class="monospace-font">This is what monospace looks like</h5>
+
+    <h4>Cursive</h4>
+    <h5 class="cursive-font">This is what cursive looks like</h5>
+
+    <h4>Fantasy</h4>
+    <h5 class="fantasy-font">This is what Fantasy looks like</h5>
+
+    <hr>
+    <h2>Other Font Descriptors</h2>
+
+    <h4>Font-Style</h4>
+
+    <h5 class="font-style1">Font Style 1- Normal</h5>
+    <h5 class="font-style2">Font Style 2- italic</h5>
+    <h5 class="font-style3">Font Style 3- oblique</h5>
+    <!-- Specifies that the font-face is an artificially 
+        sloped version of the normal font. -->
+
+    <h4>Font-Weight</h4>
+
+    <p id="fontWeight1">Font Weight 1- Normal</p>
+    <p id="fontWeight2">Font Weight 2- Bold</p>
+    <p id="fontWeight3">Font Weight 3- Lighter</p>
+    <p id="fontWeight4">Font Weight 4- Bolder</p>
+    <p id="fontWeight5">Font Weight 5- Using a Number</p>
+
+
+    <h4>The Font- Property</h4>
+    <h5>~The Font Combo Play~</h5>
+    <!-- the required values for Font are font-size and font-family 
+    in that order. Everything else is optional -->
+
+    <p id="font1">Font 1</p>
+    <p id="font2">Font 2</p>
+    <p id="font3">Font 3</p>
+    <p id="font4">Font 4</p>
+    <p id="font5">Font 5</p>
+
+</body>
+
+</html>

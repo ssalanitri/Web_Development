@@ -1,0 +1,407 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Open Sans", sans-serif; /* all fonts in the document set the same  */
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+/* note I am using text shadow here */
+  text-shadow: 1px 2px rgba(0, 26, 255, 0.222);
+}
+
+h2 {
+  font-size: 34px;
+  text-align: left;
+  font-style: bold;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 25px;
+  text-align: left;
+  font-style: bold;
+  margin: 10px;
+}
+
+h5{
+    font-size: 20px;
+    text-align: left;
+    font-style: bold;
+    margin: 10px;
+  }
+
+img[src] {
+  height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.lineHeight1{
+    line-height: normal;   
+    font-size: 10pt; 
+    margin: 15px;
+}
+
+.lineHeight2{
+    line-height: 2.5;   
+    font-size: 10pt; 
+    margin: 15px;
+}
+
+.lineHeight3{
+    line-height: 4em;   
+    font-size: 10pt; 
+    margin: 15px;
+}
+
+#hyph-words {
+  text-decoration: underline;
+}
+
+.hyphen {
+  hyphens: auto;
+  font-size: 75px;
+}
+
+#overflow1 {
+  overflow-wrap: normal;
+  height: 445px;
+  width: 440px;
+  border: 1px solid rgb(102, 84, 84);
+  display: inline-block;
+  font-size: 31px;
+  background-color: rgba(255, 255, 0, 0.537);
+}
+
+#overflow2 {
+  overflow-wrap: break-word;
+  height: 460px;
+  width: 440px;
+  border: 1px solid rgb(102, 84, 84);
+  display: inline-block;
+  font-size: 31px;
+  background-color: rgba(153, 205, 50, 0.557);
+}
+
+.text-aligned-left {
+  text-align: left;
+  border: solid;
+}
+.text-aligned-center {
+  text-align: center;
+  border: solid;
+  width: 440px;
+}
+.text-aligned-justified {
+  text-align: justify;
+  border: solid;
+  width: 700px;
+  padding: 20px;
+}
+
+img.top {
+  vertical-align: text-top;
+}
+img.bottom {
+  vertical-align: text-bottom;
+}
+img.middle {
+  vertical-align: middle;
+ 
+}
+
+
+
+.text-indent{
+    text-indent: 15%;
+    border: solid;
+    background-color: rgba(239, 17, 209, 0.153);
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.text-transform-cap{
+    text-transform: capitalize;
+    border: solid;
+    background-color: rgba(99, 100, 123, 0.544);
+    padding: 20px;
+    margin: 20px;
+}
+.text-transform-upper{
+    text-transform: uppercase;
+    border: solid;
+    background-color: rgba(99, 100, 123, 0.544);
+    padding: 20px;
+    margin: 20px;
+}
+.text-transform-lower{
+    text-transform: lowercase;
+    border: solid;
+    background-color: rgba(99, 100, 123, 0.544);
+    padding: 20px;
+    margin: 20px;
+}
+
+.white-space-norm{
+    white-space: normal;
+    border: solid;
+    background-color: rgba(208, 234, 117, 0.544);
+    padding: 20px;
+    margin: 20px;
+    width: 700px;
+}
+.white-space-nw{
+    white-space: nowrap;
+    border: solid;
+    background-color: rgba(208, 234, 117, 0.544);
+    padding: 20px;
+    margin: 20px;
+    width: 700px;
+}
+.white-space-pre{
+    white-space: pre;
+    border: solid;
+    background-color: rgba(208, 234, 117, 0.544);
+    padding: 20px;
+    margin: 20px;
+    width: 700px;
+}
+.white-space-pw{
+    white-space: pre-wrap;
+    border: solid;
+    background-color: rgba(208, 234, 117, 0.544);
+    padding: 20px;
+    margin: 20px;
+    width: 700px;
+}
+.white-space-pl{
+    white-space: pre-line;
+    border: solid;
+    background-color: rgba(208, 234, 117, 0.544);
+    padding: 20px;
+    margin: 20px;
+    width: 700px;
+}
+.white-space-bs{
+    white-space: break-spaces;
+    border: solid;
+    background-color: rgba(208, 234, 117, 0.544);
+    padding: 20px;
+    margin: 20px;
+    width: 700px;
+}
+
+
+.work-break-norm{
+    word-break: normal;
+    border: solid;
+    background-color: rgba(117, 191, 234, 0.249);
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+}
+.work-break-ba{
+    word-break: break-all;
+    border: solid;
+    background-color: rgba(117, 191, 234, 0.249);
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+
+}
+
+.work-break-ka{
+    word-break: keep-all;
+    border: solid;
+    background-color: rgba(117, 191, 234, 0.249);
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+}
+.work-break-bw{
+    word-break: break-word;
+    border: solid;
+    background-color: rgba(117, 191, 234, 0.249);
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+}
+
+
+.word-spacing-norm{
+    word-spacing: normal;
+    border: solid;
+    background-color: rgba(82, 206, 156, 0.249);
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+}
+
+.word-spacing-len{
+    word-spacing: 1em;
+    border: solid;
+    background-color: rgba(82, 206, 156, 0.249);
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+}
+
+.vert-lr{
+  writing-mode: vertical-lr;
+  border: solid;
+    background-color: rgba(105, 82, 206, 0.249);
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+}
+
+.vert-rl{
+    writing-mode: vertical-rl;
+    border: solid;
+    background-color: rgba(105, 82, 206, 0.249);
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+  }
+
+  .ts-1{
+    text-indent: 15%;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 1px 1px 2px black; 
+  }
+
+  .ts-2{
+    text-indent: 15%;
+    text-shadow: #fc0 1px 0 10px; 
+  }
+
+  .ts-3{
+    text-indent: 15%;
+    text-shadow: 5px 5px #558abb;
+  }
+
+  .ts-4{
+    text-indent: 15%;
+    text-shadow: -20px 20px 4px  blueviolet;
+  }
+
+  .fl::first-letter{
+    
+    padding: 3px;
+    margin: 20px;
+    text-shadow: #fc0 1px 0 10px; 
+    color: rgb(71, 23, 183);
+    font-size: 3em;
+  }
+
+
+  .serif-font{
+      font-family: serif;
+      text-indent: 10%;
+  }
+  .sans-serif-font{
+    font-family: sans-serif;
+    text-indent: 10%;
+}
+.monospace-font{
+    font-family: monospace;
+    text-indent: 10%;
+}
+.cursive-font{
+    font-family: cursive;
+    text-indent: 10%;
+}
+.fantasy-font{
+    font-family: fantasy;
+    text-indent: 10%;
+}
+
+.font-style1{
+    font-style: normal;
+    text-indent: 10%;
+}
+.font-style2{
+    font-style: italic;
+    text-indent: 10%;
+}
+
+.font-style3{
+    font-style: oblique;
+    text-indent: 10%;
+}
+
+#fontWeight1{
+    font-family: serif;
+    font-weight: normal;
+    text-indent: 10%;
+    font-size: 20px;
+}
+#fontWeight2{
+    font-family: serif;
+    font-weight: bold;
+    text-indent: 10%;
+    font-size: 20px;
+}
+#fontWeight3{
+    font-family: serif;
+    font-weight: lighter;
+    text-indent: 10%;
+    font-size: 20px;
+}
+#fontWeight4{
+    font-family: serif;
+    font-weight: bolder;
+    text-indent: 10%;
+    font-size: 20px;
+}
+#fontWeight5{
+    font-family: serif; 
+    font-weight: 900;
+    text-indent: 10%;
+    font-size: 20px;
+}
+
+#font1{
+    text-indent: 10%;
+    margin: 10px;
+    font: italic 900 small-caps 30px Veranda, Helvetica; 
+}
+#font2{
+    text-indent: 10%;
+    margin: 10px;
+    font: 20px/14px sans-serif; 
+}
+#font3{
+    text-indent: 10%;
+    margin: 10px;
+    font: 250% sans-serif; 
+}
+#font4{
+    text-indent: 10%;
+    margin: 10px;
+    font: bold italic large serif; 
+}
+#font5{
+    text-indent: 10%;
+    margin: 10px;
+    font: italic small-caps bold 32px/2 cursive;; 
+}
+
+
+
+
+
