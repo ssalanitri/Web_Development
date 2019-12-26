@@ -1,0 +1,90 @@
+html {
+    background-color: rgba(0, 82, 159, 0.256); 
+  }
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 149, 0, 0.591);
+    padding: 5px 5px 5px 5px;
+    border: 3px solid black;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 1px 2px 1px black;
+  }
+  .blocks-a {
+    border: 5px solid black;
+    background-color: rgba(0, 140, 255, 0.502);
+    border: 1px solid rgb(228, 4, 56);
+  }
+  .blocks-b{
+    border: 5px solid black;
+    background-color: rgba(255, 0, 255, 0.591);
+    border: 1px solid rgb(228, 4, 56);
+  }
+  .blocks-c{
+    border: 5px solid black;
+    background-color: rgba(0, 255, 187, 0.591);
+    border: 1px solid rgb(228, 4, 56);
+  }
+  .inline-a {
+    border: 5px solid black;
+    background-color: rgba(0, 140, 255, 0.502);
+    border: 1px solid rgb(228, 4, 56);
+  }
+  .inline-b{
+    border: 5px solid black;
+    background-color: rgba(255, 0, 255, 0.591);
+    border: 1px solid rgb(228, 4, 56);
+  }
+  .inline-c{
+    border: 5px solid black;
+    background-color: rgba(0, 255, 187, 0.591);
+    border: 1px solid rgb(228, 4, 56);
+
+  }
+
+
+  .box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+  }
+  
+  .alternate {
+    box-sizing: border-box;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    /* here, auto is a special value that divides 
+    the available horizontal space evenly between left and right */
+    width: 300px;
+    height: 275px;
+    border: 2px solid rgb(51, 80, 153);
+  }
+
+  #image1 {
+    text-align: center;
+
+  }
+
+
+  span {
+    margin: 20px;
+    padding: 20px;
+    width: 80px;
+    height: 50px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: inline-block;
+  }
+    
