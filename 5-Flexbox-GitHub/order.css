@@ -1,0 +1,22 @@
+nav{
+    display:flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #ddd;
+}
+
+a{
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 3px 3px 0 0;
+    background-color: #ddd;
+    text-decoration: none;
+    color:black;
+}
+a.hover{
+    background-color: #bbb;
+    text-decoration: underline;
+}
+a.active{
+    order: -1;
+    background-color:#999;
+}

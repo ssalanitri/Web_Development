@@ -1,0 +1,35 @@
+body {
+    max-width: 1000px;
+    margin: auto;
+  }
+.nav {
+    display: flex;
+    /* justify-content: space-between; */
+    border: 1px solid rgb(70, 68, 68);
+    padding: 3px;
+    flex-flow: row wrap;
+    height: 300px;
+    align-items: center; 
+    /* align-content: flex-end;  */
+     
+  }
+
+
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five ,
+  .six,
+  .seven,
+  .eight{
+    /* flex: 1 1 auto; */
+    background: rgba(25, 26, 25, 0.187);
+    border: 1px solid rgb(70, 68, 68);
+    text-align: center;
+    font-size: 26px;
+    padding: 2px;
+    margin: 1px;
+
+  }
